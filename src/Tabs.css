@@ -1,0 +1,48 @@
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.anti-tab,
+.tab {
+    background-color: #e6c99e; /* Manila color */
+    border: solid 1px #c8a165; /* Border to match manila color */
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    margin-right: -1px; /* Overlap the tabs slightly to avoid gaps */
+
+    /* This will create the sloped effect */
+    clip-path: polygon(0% 0%, 100% 0%, 80% 100%, 20% 100%);
+    transform: rotate(0.5turn);
+}
+
+/* Use the ::after pseudo-element to create the sloped right side */
+.tab::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -100px; /* Control the slope of the right side */
+    bottom: 0;
+    border-left: 10px solid #e6c99e;
+}
+
+/* Use the ::before pseudo-element to create the sloped left side */
+.tab::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -10px; /* Control the slope of the left side */
+    bottom: 0;
+    border-right: 10px solid #e6c99e;
+}
+
+.anti-tab {
+    background-color: #ffffff;
+    transform: rotate(0turn);
+}
+
+.tab-text {
+    transform: rotate(0.5turn);
+}

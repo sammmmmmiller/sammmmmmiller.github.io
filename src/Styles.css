@@ -1,0 +1,62 @@
+.btn-wrap{
+    position: relative; /* Position the wrap absolutely */
+    top: -46px; /* Align to the top of the folder */
+    /* bottom: 50px; */
+    left: 0; /* Align to the left of the folder */
+    right: 0; /* Align to the right of the folder */
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0; /* Remove margin to align correctly */
+
+  }
+
+  .btn{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #f7e1b5;
+  }
+ 
+  
+  .btn-trapezoid-outline{
+    display: inline-block;
+    color: #000000;
+    transform-style: preserve-3d;
+    padding: 20px 70px;
+    border: 2px solid #463824;
+    border-bottom: none;
+    transform: perspective(200px) rotateX(35deg) translateZ(25px) translateY(5px);
+    /* -webkit-backface-visibility: hidden; */
+    transition: all .3s ease-out;
+    span{
+      font-size: 14px;
+      /* letter-spacing: 3px; */
+      display: block;
+      transform: perspective(160px) rotateX(-18deg) translateZ(4px) translateY(4px);
+    }
+  }
+
+  .anti {
+
+    background-color: #ffffff;
+    color: #ffffff;
+    margin-top: -23px;
+    border-bottom: none;
+    transform: rotateX(180deg) perspective(200px) rotateX(35deg) translateZ(25px) translateY(5px);
+    transition: none;
+    
+    /* transform: rotate(180deg); */
+    /* -webkit-backface-visibility: hidden; */
+    
+   
+  }
+  
+  .btn-trapezoid-outline:hover{
+    background: #fcec0c;
+    color: #000000;
+  }
+
+  .btn-trapezoid-outline.anti:hover {
+    background-color: #ffffff; /* Same as the non-hover state */
+    color: #ffffff; 
+  }

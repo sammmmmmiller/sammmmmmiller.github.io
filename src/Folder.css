@@ -1,0 +1,21 @@
+.folder {
+    border: 2px solid #463824; /* Folder-like color */
+    background-color: #f7e1b5;
+    /* padding: 20px; */
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    width: 80%; /* Adjust as needed */
+    min-height: 500px; /* Adjust as needed */
+}
+
+.portfolio-text {
+    /* text-align: center; */
+    color: #d21c12;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    transform: translate(0px, 125px) rotate(-20deg);
+    font-size: 70px;
+
+}
