@@ -1,0 +1,20 @@
+figure out what tqo do with homepage if anything
+
+replace text on about
+
+rotating image gallery on about 
+
+fix resume button / add download button / hook up resume
+
+font color 
+
+-----------------
+
+letterboxd icon
+
+portfolio folder
+
+fix contact icons
+
+<sam/miller>
+

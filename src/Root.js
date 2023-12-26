@@ -1,12 +1,14 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import App from './App';
+import './Styles.css';
 
 const Root = () => {
   return (
-    <Router>
+    <>
+      
       <App />
-    </Router>
+    </>
   );
 };
 

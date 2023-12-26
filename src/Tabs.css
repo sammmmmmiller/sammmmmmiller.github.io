@@ -46,3 +46,17 @@
 .tab-text {
     transform: rotate(0.5turn);
 }
+
+.btn-wrap {
+    display: flex;
+    width: 100%;
+}
+.btn {
+    flex-grow: 1;
+    text-align: center; 
+    
+    /* Remove any fixed width if set */
+    /* margin: 0 10px;
+    flex-basis: calc((100% / 6) - 20px); */
+    max-width: 1%;
+}

@@ -1,10 +1,10 @@
-/* header */
+header
 
 .header {
-  display: block;
+  /* display: block;
   max-width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
+  padding: 200px;
+  margin: 0px auto; */
 }
 
 .header ul {
@@ -14,9 +14,6 @@
   overflow: hidden;
   /* background-color: #fff; */
 }
-.grey-color {
-  color: #868e96;
-}
 
 .header li a {
   display: block;
@@ -25,17 +22,23 @@
   text-decoration: none;
 }
 
-.header li a:hover,
-.header .menu-btn:hover {
-  /* background-color: #A6E1FA; */
+.header .menu a {
+  color: #E5E5E5;
+  /* font-size: large; */
+  /* Add any other styles you want to apply to li elements here */
+}
+.header a {
+  color: #E5E5E5;
+  /* font-size: large; */
+  /* Add any other styles you want to apply to li elements here */
 }
 
 .header .logo {
   display: block;
   float: left;
-  font-size: 1.5em;
+  font-size: 28px;
   text-decoration: none;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   line-height: normal;
 }
 .header .logo-name {
@@ -48,7 +51,7 @@
 /* menu */
 
 .menu {
-  font-family: "Google Sans Regular";
+  font-family:'sans-serif';
 }
 
 .header .menu {
@@ -69,7 +72,7 @@
 }
 
 .header .menu-icon .navicon {
-  background: #333;
+  /* background: #333; */
   display: block;
   height: 2px;
   position: relative;
@@ -133,6 +136,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px 40px;
+    position: fixed;
+    background-color: #262626;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
   }
   .header .menu {
     max-height: none;
@@ -143,6 +152,14 @@
 }
 @media (max-width: 960px) and (min-width: 768px) {
   .header {
-    font-size: 12px;
+    font-size: 16px;
   }
+}
+
+button {
+  margin: 1px;
+}
+
+div {
+  align-items: center;
 }

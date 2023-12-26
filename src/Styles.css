@@ -1,6 +1,6 @@
 .btn-wrap{
     position: relative; /* Position the wrap absolutely */
-    top: -46px; /* Align to the top of the folder */
+    top: -31px; /* Align to the top of the folder */
     /* bottom: 50px; */
     left: 0; /* Align to the left of the folder */
     right: 0; /* Align to the right of the folder */
@@ -40,7 +40,7 @@
 
     background-color: #ffffff;
     color: #ffffff;
-    margin-top: -23px;
+    margin-top: -24px;
     border-bottom: none;
     transform: rotateX(180deg) perspective(200px) rotateX(35deg) translateZ(25px) translateY(5px);
     transition: none;
@@ -59,4 +59,15 @@
   .btn-trapezoid-outline.anti:hover {
     background-color: #ffffff; /* Same as the non-hover state */
     color: #ffffff; 
+  }
+
+  footer {
+    position: fixed; /*force the footer to not move regardless of what else is going on on the page*/
+    bottom: 0; /* Make sure it stays at the bottom of the page */
+    background-color: black;
+    display: flex; /*need this to be a flex to work with justify-content/align-items*/
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
   }

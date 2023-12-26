@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: red;
 }
 
 .App-logo {
@@ -36,3 +37,26 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #FFF4EC;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white; /* If you want the default text color to be white */
+}
+
+section {
+  width: 100%;
+  height: 100vh; /* Full height of the viewport */
+  /* Add more styling as needed */
+}
+
+.element {
+  height: calc(100vh); /* Adjust 80px to the height of your header/footer */
+  overflow-y: auto;
+  box-sizing: border-box; /* Include padding and border in the element's width */
+  padding-top: 102px;
+}
+
+

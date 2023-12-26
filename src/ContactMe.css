@@ -1,0 +1,13 @@
+.mediadiv {
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: center;
+}
+
+a {
+    color: black;
+}
+
+div {
+    align-items:center;
+}
