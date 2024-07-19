@@ -1,22 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.cb9cceb4.chunk.css",
-    "main.js": "/static/js/main.e5e46b82.chunk.js",
-    "main.js.map": "/static/js/main.e5e46b82.chunk.js.map",
+    "main.js": "/static/js/main.0dbc9f9e.chunk.js",
+    "main.js.map": "/static/js/main.0dbc9f9e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1807df9f.js",
     "runtime-main.js.map": "/static/js/runtime-main.1807df9f.js.map",
     "static/css/2.fe62fa80.chunk.css": "/static/css/2.fe62fa80.chunk.css",
-    "static/js/2.a04f9f0a.chunk.js": "/static/js/2.a04f9f0a.chunk.js",
-    "static/js/2.a04f9f0a.chunk.js.map": "/static/js/2.a04f9f0a.chunk.js.map",
+    "static/js/2.94c1f86f.chunk.js": "/static/js/2.94c1f86f.chunk.js",
+    "static/js/2.94c1f86f.chunk.js.map": "/static/js/2.94c1f86f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ed73cd2d223e04024687ec0d8af1348e.js": "/precache-manifest.ed73cd2d223e04024687ec0d8af1348e.js",
+    "precache-manifest.77b57dcb7f7ebde24ed1a33a236db512.js": "/precache-manifest.77b57dcb7f7ebde24ed1a33a236db512.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.fe62fa80.chunk.css.map": "/static/css/2.fe62fa80.chunk.css.map",
     "static/css/main.cb9cceb4.chunk.css.map": "/static/css/main.cb9cceb4.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/IMG_1057.jpg": "/static/media/IMG_1057.06211839.jpg",
     "static/media/address_image.svg": "/static/media/address_image.16559172.svg",
-    "static/media/animated_ashutosh.png": "/static/media/animated_ashutosh.eaf02c2d.png",
     "static/media/animated_logo.svg": "/static/media/animated_logo.dcd6dee2.svg",
     "static/media/blacksleeve.png": "/static/media/blacksleeve.292012e9.png",
     "static/media/blogs_image.svg": "/static/media/blogs_image.058eca4c.svg",
@@ -51,7 +50,6 @@
     "static/media/mg6tghgz.bmp": "/static/media/mg6tghgz.b51f3dcc.bmp",
     "static/media/muffito_logo.png": "/static/media/muffito_logo.069938a8.png",
     "static/media/nptel_logo.png": "/static/media/nptel_logo.95a12a2b.png",
-    "static/media/portfolio.gif": "/static/media/portfolio.414dfbd9.gif",
     "static/media/programmer.svg": "/static/media/programmer.5faf790b.svg",
     "static/media/projects_image.svg": "/static/media/projects_image.b8ba9487.svg",
     "static/media/pwa.png": "/static/media/pwa.71408db7.png",
@@ -68,8 +66,8 @@
   "entrypoints": [
     "static/js/runtime-main.1807df9f.js",
     "static/css/2.fe62fa80.chunk.css",
-    "static/js/2.a04f9f0a.chunk.js",
+    "static/js/2.94c1f86f.chunk.js",
     "static/css/main.cb9cceb4.chunk.css",
-    "static/js/main.e5e46b82.chunk.js"
+    "static/js/main.0dbc9f9e.chunk.js"
   ]
 }
